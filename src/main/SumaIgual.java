@@ -5,7 +5,7 @@ public class SumaIgual {
         for (int i = 0; i < numeros.length; i++) {
             for (int j = i + 1; j < numeros.length; j++) {
                 if (numeros[i] + numeros[j] == objetivo) {
-                    resultado += "(" + numeros[i] + ", " + numeros[j] + ") ";
+                    resultado += "[" + numeros[i] + " + " + numeros[j] + "] ";
                 }
             }
         }
